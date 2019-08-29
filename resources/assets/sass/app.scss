@@ -1,0 +1,15 @@
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "./variables";
+@import "~open-iconic/font/css/open-iconic-bootstrap";
+/*
+ * Dashboard
+ */
+
+.has-shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.show > .dropdown-menu {
+  display: block;
+}
